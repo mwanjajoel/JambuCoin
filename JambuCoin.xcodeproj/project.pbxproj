@@ -45,6 +45,7 @@
 		8B7BF51820967A7E006C0EF1 = {
 			isa = PBXGroup;
 			children = (
+				A8FE401A211886BB006EF9BD /* README.md */,
 				8B7BF52320967A7E006C0EF1 /* JambuCoin */,
 				8B7BF52220967A7E006C0EF1 /* Products */,
 			);
@@ -70,7 +71,6 @@
 				8B7BF52D20967A80006C0EF1 /* LaunchScreen.storyboard */,
 				8B7BF53020967A80006C0EF1 /* Info.plist */,
 				8B23A8EF209D09960025A264 /* CustomButton.swift */,
-				A8FE401A211886BB006EF9BD /* README.md */,
 			);
 			path = JambuCoin;
 			sourceTree = "<group>";
