@@ -28,6 +28,7 @@
 		8B7BF52B20967A80006C0EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7BF52E20967A80006C0EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B7BF53020967A80006C0EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FE401A211886BB006EF9BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 				8B7BF52D20967A80006C0EF1 /* LaunchScreen.storyboard */,
 				8B7BF53020967A80006C0EF1 /* Info.plist */,
 				8B23A8EF209D09960025A264 /* CustomButton.swift */,
+				A8FE401A211886BB006EF9BD /* README.md */,
 			);
 			path = JambuCoin;
 			sourceTree = "<group>";
