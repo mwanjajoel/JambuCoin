@@ -1,4 +1,7 @@
-
+/**
+ The two major functions of the Blockchain is to create genesis blocks and also add other blocks to the chain to form a block chain. This Class replicates that same behaviour.
+ 
+**/
 
 import UIKit
 
