@@ -76,8 +76,8 @@ class ViewController: UIViewController {
         }
         
         //update the balances on the UI
-        redLabel.text = "Balance: \(accounts)"
-        blueLabel.text = "Balance: \(accounts)"
+        redLabel.text = "Balance: \(accounts[String(describing: firstAccount)]!) JBC"
+        blueLabel.text = "Balance: \(accounts[String(describing: secondAccount)]!) JBC"
     }
     
     
