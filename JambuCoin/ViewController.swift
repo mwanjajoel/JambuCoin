@@ -49,7 +49,35 @@ class ViewController: UIViewController {
             accounts.updateValue(accounts[from]! - amount, forKey: from)
         }
         
+        // check to see if its a genesis block
+        if type == "genesis" {
+            
+            //create a genesis block
+            jambuCoinChain.createGenesisBlock(data: "From: \(from); To: \(to); Amount: \(amount)JBC")
+            
+            // otherwise if its normal
+        } else if type == "normal"  {
+            
+            // create the next block
+            jambuCoinChain.createBlock(data: "From:\(from); To: \(to); Amount: \(amount) JBC" )
+            
+            
+        }
         
+    }
+    
+    // MARK: - This function prints the list of transactions
+    func chainState() {
+        
+        // loop through from the first transaction
+        for i in 0...jambuCoinChain.chain.count - 1 {
+            
+            print("\tBlock: \(jambuCoinChain.chain[i].index!) \n\tHash: \(jambuCoinChain.chain[i].hash!)\n\tPreviousHash: \(jambuCoinChain.chain[i].previousHash!) \n\tData: \(jambuCoinChain.chain[i].data!)")
+        }
+        
+        //update the balances on the UI
+        redLabel.text = "Balance: \(accounts)"
+        blueLabel.text = "Balance: \(accounts)"
     }
     
     
